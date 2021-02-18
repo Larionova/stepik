@@ -19,3 +19,4 @@ def driver(request):
         raise pytest.UsageError('--driver should be chrome or firefox')
     yield driver
     driver.quit()
+
