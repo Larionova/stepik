@@ -7,3 +7,4 @@ def test_guest_should_see_login_link(driver):
     driver.find_element(By.CSS_SELECTOR, '#login_link')
     print("w")
     print("q")
+    print("r")
